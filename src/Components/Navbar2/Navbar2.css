@@ -1,0 +1,14 @@
+#navbar2{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+  background: black;
+}
+
+#navbar2 .page-hrefs a{
+  font-size: 14.3px;
+  color: white;
+}

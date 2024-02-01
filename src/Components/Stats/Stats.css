@@ -1,0 +1,42 @@
+#stats{
+  background: #eeecfa;
+  padding:100px 150px;
+}
+
+.big-stats{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.big-stats .stat{
+  text-align: center;
+}
+
+.big-stats .stat h1{
+  font-size: 96px;
+  line-height: 96px;
+  font-weight: 900;
+}
+
+.big-stats .stat h3{
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 900;
+}
+
+#stats p{
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -.9px;
+  font-weight: 500;
+  margin:40px 0;
+}
+
+#stats h2{
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 900;
+  font-style: italic;
+  margin:20px 0;
+}

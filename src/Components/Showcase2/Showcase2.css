@@ -1,0 +1,19 @@
+#showcase2{
+  /* font-family: 'Poppins', sans-serif; */
+  background: black;
+  color: white;
+  height: 84.2vh;
+  flex-direction: column;
+}
+
+#showcase2 h1{
+  padding-top: 200px; 
+  letter-spacing: -3.9px;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+}
+
+/* button{
+
+} */

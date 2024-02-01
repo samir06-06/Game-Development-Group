@@ -1,0 +1,72 @@
+#menu1{
+  padding-top: 200px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.trio-displayer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.trio-img{
+}
+
+.trio-img img{
+  border-radius: 30px;
+  width: 380px;
+}
+
+.trio-text{
+  text-align: start;
+}
+
+.trio-text .icon{
+  text-align: start;
+  margin-bottom: 30px;
+}
+
+.trio-text h3{
+  line-height: 40px;
+  font-weight: 900;
+  font-size: 36px;
+  /* font-family: 'Poppins', sans-serif; */
+  margin-bottom: 24px;
+}
+
+.trio-text p{
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  /* font-family: 'Poppins', sans-serif; */
+  margin-bottom: 20px;
+}
+  
+
+.trio-changer{
+  justify-content: space-around;
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.trio-changer button{
+  height: 170px;
+  width:350px;
+  border-style: none;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 30px;
+  border-bottom: 3px solid white;
+}
+
+.trio-changer button h6{
+  font-size: 18px;
+}
+
+.trio-changer button p{
+  font-size: 14px;
+  font-weight: 800;
+}

@@ -1,0 +1,43 @@
+.best{
+  display: flex;
+  margin-top: 130px; 
+}
+
+.best-text{
+  flex:3;
+}
+
+.best-text h1{
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: -3.9px;
+}
+
+.best-text h1 span{
+  background: #9440ff;
+  color: white;
+  display: inline-block;
+}
+
+.best-rest{
+  flex: 4;
+  margin-bottom: 30px;
+}
+
+.rest-pic{
+  width: 500px;
+  margin-bottom: 50px;
+  height: 350px;
+  width: 710px;
+  border-radius: 30px;
+  background: url("https://assets-global.website-files.com/629492815ffdc45486c74126/64da24b9888cba755dde8610_About-Thumbnail-p-1080.webp") no-repeat center center/cover;
+}
+
+.best-rest h4{
+  letter-spacing: -.04em;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 134.5%;
+}
+

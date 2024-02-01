@@ -1,0 +1,28 @@
+
+.logo img{
+  width: 190px;
+}
+
+#navbar{
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+}
+
+.page-hrefs{
+  display: flex;
+  gap:0 30px; 
+}
+
+.page-hrefs a{
+  font-size: 14.3px;
+  color: black;
+}
+
+.links{
+  display: flex;
+  gap: 0 25px ;
+}

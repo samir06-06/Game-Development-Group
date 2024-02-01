@@ -1,0 +1,21 @@
+#need-help{
+  margin:100px 0
+}
+
+.help{
+  border-radius: 25px;
+  padding: 80px;
+  background-image: url("https://assets-global.website-files.com/629492815ffdc45486c74126/64cae99a2332031025235801_Frame-1018.jpg") ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+}
+
+.help h2{
+  color: white;
+  line-height: 36px;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}

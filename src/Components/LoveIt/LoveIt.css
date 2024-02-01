@@ -1,0 +1,36 @@
+#love-it{
+  background-color: #ff38ae;
+  display: flex;
+  color: white;
+  height: 101vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-half h3{
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 900;
+  margin-bottom:30px;
+  align-items: stretch;
+}
+.text-half {
+  flex: 1;
+}
+
+.pic-half{
+  flex: 1;
+  overflow-x:hidden ;
+}
+
+.pic-half img{
+  width: 570px;
+  display: block;  
+}
+
+.text-half p{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -.9px;
+}

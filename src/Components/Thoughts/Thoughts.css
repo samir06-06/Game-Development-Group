@@ -1,0 +1,25 @@
+#thoughts{
+  background: url("../Assets/images/thoughts.jpeg") no-repeat center center/cover ;
+  height: 75vh;
+  width: 100%;
+  /* padding: 1; */
+}
+
+.share-h{
+  color: white;
+  padding-top: 252px;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 900;
+}
+
+#thoughts a{
+  cursor: pointer;
+  display: inline-block;
+  margin-top:10px;
+  color: white;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 40px;
+}

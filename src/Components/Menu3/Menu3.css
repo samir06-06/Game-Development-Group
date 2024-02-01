@@ -1,0 +1,66 @@
+
+
+.headline{
+  text-align: start;
+  margin: 100px 0;
+}
+
+.headline h1{
+  font-weight: 900;
+  line-height: 60px;
+  font-size: 60px;
+}
+
+.headline span{
+  background: #0027d5;
+  display: inline-block;
+  color:white;
+}
+
+.headline h4{
+  font-weight: 900;
+  letter-spacing: -.9px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.offerings{
+  display: grid;
+  text-align: start;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px 50px ;
+  margin-bottom: 100px;
+ }
+
+ .offerings1{
+  display: grid;
+  text-align: start;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px 50px ;
+  margin-bottom: 100px;
+ }
+
+ .offer{
+  text-align: start;
+ }
+
+ .offer h6{
+  line-height: 21px;
+  font-size: 20px;
+  font-weight: 700;
+ }
+
+ /* button{
+  font-weight: 900; 
+  font-size:16px;
+  font-family: 'Poppins', sans-serif;
+  padding: 18px 65px;
+  border-style: none;
+  border-radius: 20px;
+  background-color: #d7ff38;
+  margin-bottom: 50px;
+ } */
+
+

@@ -1,0 +1,63 @@
+#featured{
+  margin-top:100px;
+  background-color: black;
+  color: white;
+}
+
+#featured h2{
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+#featured p{
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.job-spheres{
+  display: flex;
+  gap: 0 15px ;  
+  margin-bottom: 50px;
+}
+
+.job-spheres a{
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+}
+
+.job-spheres a:hover{
+  opacity: 0.6;
+}
+
+.job-options{
+
+  display: grid;
+  text-align: start;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px 20px;
+  margin-bottom: 50px
+}
+
+.job-options .option{
+  padding: 25px;
+  border-radius: 10px;
+  border: 2px solid rgb(77, 77, 77);
+  font-weight: 900;
+}
+
+.option h4{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.option a{
+  color: white;
+  font-size: 14px;
+}

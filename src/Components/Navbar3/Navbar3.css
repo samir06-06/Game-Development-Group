@@ -1,0 +1,22 @@
+#navbar3{
+  /* position: relative; */
+width: 100%;
+  /* z-index: 5; */
+  left:0;
+  top: 0;
+  position: absolute;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+  background: rgba(0, 0, 0, 0.0);
+}
+
+#navbar3 .page-hrefs a{
+  color: white;
+  font-size: 14.3px;
+  
+}
+

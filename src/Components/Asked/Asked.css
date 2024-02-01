@@ -1,0 +1,62 @@
+#asked{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding:100px 0;
+}
+
+.question{
+  display: flex;
+  justify-content: space-between;
+  margin:20px 0;
+}
+
+.how-p{
+  display: none;
+  font-size: 14px;
+}
+
+#asked i{
+  cursor: pointer;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.visible{
+  display: block;
+}
+
+.asked-part{
+  flex:1;
+}
+
+.contact-part{
+  flex:1
+}
+
+.asked-p{
+  margin:40px 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.asked-h{
+  letter-spacing: .025em;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 111.02%;
+}
+
+
+.question .how-h{
+  font-size: 20px;
+  font-weight: 900;
+}
+.question .how-p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 175.52%;
+}
