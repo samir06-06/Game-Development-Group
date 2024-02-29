@@ -31,6 +31,7 @@ let Imgdata1 = [
 
 let Imgdata2 = [
   {
+    id:0,
     catagory: "Art",
     personImgPath: johnLeronImage,
     personName: "John Leron",
@@ -38,6 +39,7 @@ let Imgdata2 = [
     heading: "Why We Love Webflow (And You Should, Too!)",
   },
   {
+    id:1,
     catagory: "Gaming",
     personImgPath: harveySpectorImage,
     personName: "Harvey Spector",
@@ -45,6 +47,7 @@ let Imgdata2 = [
     heading: "Designers Who Changed the Web",
   },
   {
+    id:2,
     catagory: "Gaming",
     personImgPath: michaelDonaldImage,
     personName: "Michael Donald",
@@ -52,6 +55,7 @@ let Imgdata2 = [
     heading: "15 Best Blogs To Follow About Web Design",
   },
   {
+    id:3,
     catagory: "Games",
     personImgPath: markBroskiImage,
     personName: "Mark Broski",
@@ -59,6 +63,7 @@ let Imgdata2 = [
     heading: "5 Principles Of Effective Web Design",
   },
   {
+    id:4,
     catagory: "Games",
     personImgPath: bruceSmithImage,
     personName: "Michael Donald",

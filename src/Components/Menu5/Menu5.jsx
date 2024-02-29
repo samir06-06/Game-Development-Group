@@ -1,16 +1,28 @@
 import "./Menu5.css"
 import React from 'react'
+import { Imgdata2 } from '../Assets/data.js';
+
 
 const Menu5 = () => {
+  const clickedItem = JSON.parse(localStorage.getItem('clickedItem'));
+  const id = clickedItem.id;
+  const takenData = Imgdata2.filter(item => item.id === id);
+  const selectedItem = takenData.length > 0 ? takenData[0] : null; // Select the first matched item if any, otherwise null
+  console.log(selectedItem);
+  // Further logic with selectedItem
+
+  // datani otururem, hamisinda isleyir, axirinci postda amma iki data oturur ve sehv olani secir, gozle gosterim
+  //dataya baxdim amma problrm yoxdu orda
+
   return (
     <div id="menu5" className="container">
       <div className="img">
-        {/* <img src="" alt="" /> */}
+        <img src={takenData[0].MainImagePath} alt="" />
       </div>
       <div className="person">
         <div className="picture">
-          <img src="" alt="" />
-          <h4 className="name">John Leron</h4>
+          <img src={takenData[0].personImgPath} alt="" />
+          <h4 className="name">{takenData[0].personName}</h4>
         </div>
         <div className="date">
           <h3>SEPTEMBER 22, 2023 &nbsp; / &nbsp; 2MIN READ</h3>
@@ -18,7 +30,7 @@ const Menu5 = () => {
       </div>
       <div className="line"></div>
       <h2>
-      Why We Love Webflow (And You Should, Too!)
+      {takenData[0].heading}
       </h2>
       <h5>Exercitationem laboriosam debitis consequuntur accusantium iste.</h5>
       <p>Illo debitis nulla omnis sed sed. Similique omnis non et. Laboriosam sit aperiam dolorum commodi eum saepe corrupti quia. Necessitatibus a possimus ab et cum iure placeat recusandae est. Ab aut nihil ut quia quas sunt veritatis iste atque. Et consequatur autem ut distinctio molestias nihil est.</p>

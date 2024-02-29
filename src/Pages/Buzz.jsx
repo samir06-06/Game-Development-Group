@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Showcase from '../Components/Showcase/Showcase'
 import Menu1 from '../Components/Menu1/Menu1'
 import Menu2 from '../Components/Menu2/Menu2'
@@ -9,6 +8,8 @@ import Footer from '../Components/Footer/Footer'
 import Navbar from '../Components/Navbar/Navbar'
 import { useEffect, useState} from 'react'
 const Buzz = () => {
+
+  
 
   const [filterCriteria, setFilterCriteria] = useState('All');
 
@@ -58,7 +59,7 @@ const Buzz = () => {
      <Menu1/>
      <Menu2/>
      <Menu3/>
-      <Menu4 filterCriteria = {filterCriteria}/>
+      <Menu4 filterCriteria = {filterCriteria} />
      <div className="bg-black">
      <Footer/>
      </div>

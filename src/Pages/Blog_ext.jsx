@@ -4,13 +4,15 @@ import Footer from '../Components/Footer/Footer'
 import Navbar from '../Components/Navbar/Navbar'
 import { useEffect } from 'react'
 import Menu5 from '../Components/Menu5/Menu5'
-const Buzz = () => {
+const Blog_ext = () => {
+
+  
   useEffect(() => {
     // Select all the items you want to check for visibility
     const items = document.querySelectorAll('a, .logo, .transition1, .transition2');
 
     const isInViewport = (el) => {
-      const rect = el.getBoundingClientRect();
+      const rect = el.getBoundingClientRect()
       return (
         rect.top >= 0 &&
         rect.left >= 0 &&
@@ -52,4 +54,4 @@ const Buzz = () => {
   )
 }
 
-export default Buzz
+export default Blog_ext
