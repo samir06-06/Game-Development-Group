@@ -17,15 +17,18 @@ import bruceSmithImage from "../Assets/images/Michael-Donald.jpg";
 let Imgdata1 = [
   {
     name: "trio-1",
-    imagePath: menu1_1
+    imagePath: menu1_1,
+    heading: 'FROM A DREAM TO REALITY DRIVEN WITH PASSION'
   },
   {
     name: "Logo1-black",
-    imagePath: menu1_2
+    imagePath: menu1_2,
+    heading: 'OUR ENERGY LASTS FOREVER AND IMPACTS EVERYONE'
   },
   {
     name: "Logo2-white",
-    imagePath: menu1_3
+    imagePath: menu1_3,
+    heading: 'WE NURTURE PEOPLE WITH THE SAME MENTALITY'
   }
 ];
 
